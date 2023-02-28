@@ -1,4 +1,31 @@
-import java.io.*; // for handling input/output
+/*
+Array Games
+easy
+Time Limit: 2 sec
+Memory Limit: 128000 kB
+Problem Statement
+Given an array A of size N, find the maximum subarray size such that the difference between the maximum and minimum elements of the subarray is <= K.
+Input
+First line of the input contains two integers N and K.
+The second line of the input contains N space seperated integers.
+
+Constraints:
+1 <= N <= 105
+1 <= K <= 109
+1 <= Ai <= 109
+Output
+Print the maximum subarray size such that the difference between the maximum and minimum elements of the subarray is <= K.
+Example
+Sample Input:
+5 3
+3 5 2 7 1
+
+Sample Input:
+3
+
+Explanation:
+We can take subarray [3, 5, 2]. No subarray of size 4 or larger will satisfy the condition.
+*/import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
 // don't change the name of this class
